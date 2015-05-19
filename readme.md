@@ -34,13 +34,13 @@ If you need to add any additional classes to the target element you can define t
 ## Options 
 There are three different options for simpleToggle 
 
-- trigger: The trigger event, default is `click`, you can use `mouseenter` etc
+- trigger: The trigger event, default is `click`, you can use `mouseenter` etc. If you are using some form of jQuery mobile, I would recommend using `tap` that way you get rid of the 300ms delay on phones.
 - activeClass: The active class, default is `active`, change this to your active class i.e. `show`, `display` etc
-- animateClass: By default CSS Animate needs the `animated` class to be added to the element, if you are using your own animations you can just use `false` to remove the `animated` class, or change it to meet your own needs 
+- animateClass: By default CSS Animate needs the `animated` class to be added to the element, if you are using your own animations you can just use `false` or `null` to remove the `animated` class, or change it to meet your own needs 
 
 ##Version
 
-0.01 (alpha)
+0.0.1 (alpha)
 
 - First iteration of plugin 
 - Support for CSS Animate features  
